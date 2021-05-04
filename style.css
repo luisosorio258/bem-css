@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    background-color: #732ccf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 25rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 32px;
+    padding: 1rem;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__name {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
